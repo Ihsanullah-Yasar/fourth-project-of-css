@@ -1,0 +1,136 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2px 20px 10px 20px ;
+    background-color: #174984;
+}
+.logo{
+    font-size: 35px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+}
+.logo a{
+    text-decoration: none;
+    color: #174984;
+}
+span{
+    background-color: #174984;
+    color: #fff;
+}
+.contactonos{
+    color: #174984;
+    background-color: #fff;
+    font-size: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 80px;
+    padding: 0 15px 0 15px;
+    top: 0;
+}
+.contactonos-icon{
+    font-size: 60px;
+    margin-left: 24px;
+}
+.contactonos h2{
+    margin-top: -10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: background-color .4s, color .3s;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #174984;
+}
+
+.hero-section{
+    color: #fff;
+    
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background-color: #174984;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.footer-logo{
+    font-size: 35px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    width: 40%;
+}
+.footer-logo a{
+    text-decoration: none;
+    color: #174984;
+}
+span{
+    background-color: #174984;
+    color: #fff;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.info{
+    padding-top: 30px;
+}
+.info-row{
+    display: flex;
+    text-align: start;
+}
+
+.info-row div{
+    width: 40%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.newsletter{
+    padding-top: 50px;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.newsletter input{
+    margin-top: 20px;
+    padding: 13px;
+    width: 100%;
+    border-radius: 9px;
+    border: none;
+}
+

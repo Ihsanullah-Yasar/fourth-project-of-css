@@ -1,0 +1,134 @@
+.hero-section{
+    width: 100%;
+    overflow-x: hidden;
+}
+.hero-box{
+    background-image: url(../../shared/css/highway.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-box h1{
+    display: flex;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 50px;
+    
+}
+.left .header{
+    padding: 10px;
+    color: #3939a7;
+    font-size: 25px; 
+
+}
+.left .para{
+    width: 80%;
+    padding-top: 20px;
+}
+
+.right{
+    width: 50%;
+    margin-right: 50px;
+    height: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.row .card{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    overflow: hidden;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    box-shadow: 0px 3px 5px gray;
+    
+    width: 40%;
+    height: 150px;
+}
+.card .card-header{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.card .card-text{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.section-2{
+    margin-top: 80px;
+    padding: 30px;
+    width: 100%;
+    background-color: #fcfcfc;
+}
+
+.section-2-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.section-2-img{
+    width: 50%;
+}
+
+.section-2-img img{
+    width: 90%;
+    height: 100%;
+}
+
+.section-2-content{
+    width: 40%;
+    height: 100%;
+}
+
+.section-2-header{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #3939a7;
+}
+
+.section-2-row-2{
+    margin-top: 30px;
+    width: 100%;
+}
+.section-2-card{
+    width: 1%;
+    font-size: 120%;
+}
+
+
+
+
+
+
